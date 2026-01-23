@@ -1,0 +1,304 @@
+{
+  "profile": {
+    "name": "Salman Rizky",
+    "role": "Fullstack Web Developer",
+    "tagline": "Fullstack Web Developer & Problem Solver. Membangun aplikasi web skalabel & high-performance."
+  },
+  "experience": [
+    {
+      "role": "Frontend Engineer (Remote Intern)",
+      "company": "Build With Angga (BWA)",
+      "date": "Nov 2025 - Present",
+      "desc": "Maintenance & development of new features for the BWA website using React.js. Agile collaboration with UI/UX."
+    },
+    {
+      "role": "Fullstack Web Developer (Remote Intern)",
+      "company": "Waste4Change",
+      "date": "Aug 2025 - Present",
+      "desc": "Built main website from scratch using Nuxt. Achieved 40% speed optimization."
+    },
+    {
+      "role": "Fullstack Developer (Freelance)",
+      "company": "Self-Employed",
+      "date": "July 2025 - Present",
+      "desc": "Workshop POS & Stock Management System. Real Estate Website with Payment Gateway."
+    },
+    {
+      "role": "Fullstack Developer (Project Based)",
+      "company": "CV. Anugrah Murni Sejati",
+      "date": "Aug 2025 - jan 2026",
+      "desc": "Financial tracking & cashflow prediction system using ARIMA algorithm."
+    },
+    {
+      "role": "Frontend Developer (Remote Intern)",
+      "company": "Eduhub",
+      "date": "Jan - July 2025",
+      "desc": "Led frontend from scratch (Next.js + Tailwind). Implemented interactive UI with Framer Motion."
+    },
+    {
+      "role": "Frontend Developer (Remote)",
+      "company": "Luarsekolah",
+      "date": "Feb 2025",
+      "desc": "Landing page project (5 days), React.js + AOS Animation."
+    },
+    {
+      "role": "Fullstack Software Engineer (MSIB)",
+      "company": "Productzilla Academy",
+      "date": "Sep - Dec 2024",
+      "desc": "End-to-end MERN Stack development. Setup CI/CD Pipeline & Unit Testing."
+    }
+],
+  "skills": [
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "name": "HTML"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "name": "CSS"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "name": "JavaScript"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "name": "NodeJS"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      "name": "Bootstrap"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "name": "React"
+    },
+    {
+      "img": "https://static.cdnlogo.com/logos/t/34/tailwind-css.svg",
+      "name": "Tailwind"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "name": "TypeScript"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "name": "GitHub"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+      "name": "Vercel"
+    },
+    {
+      "img": "/assets/download.png",
+      "name": "Laravel"
+    },
+    {
+      "img": "https://avatars.githubusercontent.com/u/102045415?s=200&v=4",
+      "name": "Filament"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      "name": "Express"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "name": "MongoDB"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      "name": "MySQL"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "name": "Figma"
+    },
+    {
+      "img": "/assets/Canva-New-Logo.png",
+      "name": "Canva"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+      "name": "Postman"
+    },
+    {
+      "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      "name": "Next.js"
+    },
+    {
+      "img": "/assets/npm.png",
+      "name": "npm"
+    }
+  ],
+ 
+  "projects": [
+    {
+      "img": "/assets/showcase/moodmap.png",
+      "title": "MoodMap",
+      "date": "2025-10-18",
+      "company": "🏆 Juara 2 Nasional GEMAFTIK 2025",
+      "description": "National award-winning mental health platform combating student wellness crisis. Features AI-powered emotion analysis using fine-tuned IndoBERT (99.5% accuracy on 7,000+ Indonesian journal datasets), expressive writing therapy, visual goal mapping with chunking principles, and mood pattern recognition through interactive heatmaps.",
+      "technologies": ["React", "TypeScript", "Tailwind", "Node.js", "Express", "Python", "Flask", "IndoBERT", "MySQL", "Recharts"],
+      "link": "https://github.com/salman-ctrl/MoodMap"
+    },
+    {
+      "img": "/assets/showcase/nutrisi.webp",
+      "title": "Nutrisi.AI",
+      "date": "2025-11-30",
+      "company": "HealthTech Innovation",
+      "description": "Medical-grade AI nutritionist tackling Indonesia's dual malnutrition crisis. Features real-time food detection using YOLOv8n CNN model trained on 4,000+ datasets, personalized calorie tracking dashboard, medical safety alerts for chronic disease patients, and context-aware AI consultation powered by Gemini API with complete user history awareness.",
+      "technologies": ["React", "Tailwind", "Node.js", "Express", "MySQL", "Python", "Flask", "YOLOv8n", "Gemini API", "Docker", "TiDB Cloud"],
+      "link": "https://nutrisi-a-ife.vercel.app/"
+    },
+    {
+      "img": "/assets/showcase/trafellow.png",
+      "title": "Trafellow",
+      "date": "2026-01-15",
+      "company": "Technovaria Team Project",
+      "description": "Community-based tourism ecosystem for West Sumatra featuring collaborative trip planning. Built as Progressive Web App with interactive destination mapping via Leaflet, real-time forums and chat using Socket.io, organized travel events with auto-grouping, Redis caching for performance optimization, and comprehensive admin analytics dashboard.",
+      "technologies": ["Next.js", "Tailwind", "Node.js", "Express", "MySQL", "Socket.io", "Redis", "Leaflet"],
+      "link": "https://trafellow.vercel.app/"
+    },
+    {
+      "img": "/assets/showcase/safe-growth.png",
+      "title": "SafeGrowth",
+      "date": "2025-12-15",
+      "company": "Prisma Web Design Competition 2025",
+      "description": "Urban defense platform using geospatial intelligence to combat street crime (2,097+ reported cases). Features live crime threat mapping with tactical filters, AI-powered safe route recommendations using OSRM routing engine, hands-free voice-command emergency reporting via Web Speech API, community validation system for data integrity, and admin command center with crime analytics and heatmap visualization.",
+      "technologies": ["React", "Vite", "Tailwind", "Node.js", "Express", "MySQL", "Leaflet", "OSRM", "Web Speech API"],
+      "link": "https://github.com/salman-ctrl/safegrowth"
+    },
+    {
+      "img": "/assets/showcase/pos-system.jpeg",
+      "title": "POS System",
+      "date": "2025-12-20",
+      "company": "Self-Employed",
+      "description": "Enterprise-grade Point of Sale solution for SMEs with comprehensive business management. Features real-time inventory tracking with automated stock synchronization using database transactions (ACID compliance), multi-payment gateway integration via Midtrans, role-based access control for admin and cashier, transaction history with invoice generation, and visual sales analytics dashboard.",
+      "technologies": ["Next.js", "Node.js", "Express", "Tailwind", "Midtrans", "MySQL"],
+      "link": "https://pos-management-gamma.vercel.app/pos"
+    },
+    {
+      "img": "/assets/showcase/firstoffice.png",
+      "title": "Find Office",
+      "date": "2025-06-20",
+      "company": "Portfolio",
+      "description": "Global office rental marketplace with seamless booking experience. Features advanced search filtering by location and amenities, integrated payment gateway for secure transactions, automated WhatsApp invoice delivery system, real-time availability tracking, admin dashboard with Laravel Filament for property management, and smooth animations using Framer Motion.",
+      "technologies": ["React", "Tailwind", "Framer Motion", "Laravel", "Filament", "TypeScript"],
+      "link": "https://al-azam-asri.shop/"
+    },
+    {
+      "img": "/assets/showcase/Sevigo.png",
+      "title": "Sevigo",
+      "date": "2024-10-15",
+      "company": "Community GovTech RW 05",
+      "description": "Government-integrated citizen complaint platform empowering residents to report public issues. Features categorized issue reporting for infrastructure, public services, and safety concerns, real-time status tracking from submission to resolution, admin moderation dashboard, community engagement with upvoting system, and geolocation-based issue mapping for efficient resource allocation.",
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "TypeScript"],
+      "link": "https://frontend-delta-two-46.vercel.app/"
+    },
+    {
+      "img": "/assets/showcase/quizzera.png",
+      "title": "Quizzera - Learning Management System",
+      "date": "2025-11-18",
+      "company": "EduTech Portfolio",
+      "description": "Interactive quiz-based learning platform with gamification elements. Features timed assessments with auto-submission, detailed performance analytics with score breakdowns, progress tracking across multiple subjects, competitive leaderboards to boost engagement, question bank management system, and fully responsive TypeScript-based architecture for type safety and scalability.",
+      "technologies": ["React", "TypeScript", "Tailwind"],
+      "link": "https://quizera-sigma.vercel.app/"
+    },
+    {
+      "img": "/assets/showcase/webnagari.png",
+      "title": "Web Nagari (SID)",
+      "date": "2025-06-18",
+      "company": "Government Project",
+      "description": "Village information system serving Nagari Kuamang Alai Ujung Gading community. Features comprehensive village profile with demographic data, government announcements and news portal, public service information and requirements, community event calendar, contact directory for village officials, and administrative document request system for residents.",
+      "technologies": ["Bootstrap", "HTML", "JavaScript"],
+      "link": "https://salman-ctrl.github.io/Website-Nagari-Kuamang-Alai-Ujung-Gading/"
+    }
+  ],
+
+  "certificates": [
+    {
+      "title": "HTML",
+      "company": "Great Learning",
+      "date": "12-06-2024",
+      "img": "/assets/sertifikat/html.png",
+      "tags": "html"
+    },
+    {
+      "title": "Bootstrap",
+      "company": "Code Politan",
+      "date": "12-06-2024",
+      "img": "/assets/sertifikat/bootstrap.png",
+      "tags": "css"
+    },
+    {
+      "title": "MTCNA",
+      "company": "MikroTik",
+      "date": "29-06-2024",
+      "img": "/assets/sertifikat/mikrotik.jpg",
+      "tags": "microtik"
+    },
+    {
+      "title": "Dom JavaScript",
+      "company": "Code Politan",
+      "date": "12-06-2024",
+      "img": "/assets/sertifikat/dom.png",
+      "tags": "javascript"
+    },
+    {
+      "title": "Cloud Computing",
+      "company": "Alibaba Cloud",
+      "date": "12-06-2024",
+      "img": "/assets/sertifikat/Alibaba cloud sertification.jpg",
+      "tags": "cloud"
+    },
+    {
+      "title": "Fundamental Frontend",
+      "company": "Coding Studio",
+      "date": "12-06-2024",
+      "img": "/assets/sertifikat/fundamental.png",
+      "tags": "other"
+    },
+    {
+      "title": "Dasar Pemrograman",
+      "company": "Dicoding",
+      "date": "12-06-2024",
+      "img": "/assets/sertifikat/dasarpemograman.png",
+      "tags": "other"
+    },
+    {
+      "title": "Javascript",
+      "company": "BWA",
+      "date": "22-06-2024",
+      "img": "/assets/sertifikat/AJAXAPI.png",
+      "tags": "javascript"
+    },
+    {
+      "title": "JavaScript",
+      "company": "Code Politan",
+      "date": "12-06-2024",
+      "img": "/assets/sertifikat/javascript.png",
+      "tags": "javascript"
+    },
+    {
+      "title": "Text-Editor",
+      "company": "Code Politan",
+      "date": "12-06-2024",
+      "img": "/assets/sertifikat/texteditor.png",
+      "tags": "other"
+    },
+    {
+      "title": "Node Js",
+      "company": "Code Politan",
+      "date": "04-12-2024",
+      "img": "/assets/sertifikat/node.js.jpg",
+      "tags": "Node js"
+    },
+    {
+      "title": "CSS",
+      "company": "Great Learning",
+      "date": "21-06-2024",
+      "img": "/assets/sertifikat/css.jpg",
+      "tags": "css"
+    }
+  ]
+}
