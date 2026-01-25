@@ -13,7 +13,7 @@ const About = () => {
               <i className="fas fa-user-astronaut"></i> 01. ABOUT ME
             </div>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight font-display">
-              <HackerText text="Effective & Efficient" className="highlight-text" />.
+              Building Digital Solutions that are <HackerText text="Effective & Efficient" className="highlight-text" />.
             </h3>
             <p className="text-slate-400 leading-relaxed text-lg mb-6">
               With over 1 year of experience building end-to-end applications, I possess deep expertise in the <strong className="text-white">MERN Stack, Next.js, and Laravel</strong> ecosystems. My focus is on writing clean architecture and delivering high-performance results.
