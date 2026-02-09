@@ -22,21 +22,19 @@ const App = () => {
   const scrollProgressRef = useRef(null);
   const mainRef = useRef(null);
 
-  // Custom Cursor & Scroll Progress Logic
   useEffect(() => {
     if (loading) return;
 
     const cursorDot = document.getElementById("cursor-dot");
     const cursorOutline = document.getElementById("cursor-outline");
-    
-    // Mouse Move Logic
+
     const moveCursor = (e) => {
-      if(cursorDot) {
-          cursorDot.style.left = `${e.clientX}px`;
-          cursorDot.style.top = `${e.clientY}px`;
+      if (cursorDot) {
+        cursorDot.style.left = `${e.clientX}px`;
+        cursorDot.style.top = `${e.clientY}px`;
       }
-      if(cursorOutline) {
-          cursorOutline.animate({ left: `${e.clientX}px`, top: `${e.clientY}px` }, { duration: 500, fill: "forwards" });
+      if (cursorOutline) {
+        cursorOutline.animate({ left: `${e.clientX}px`, top: `${e.clientY}px` }, { duration: 500, fill: "forwards" });
       }
     };
 
@@ -45,24 +43,24 @@ const App = () => {
       const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
       const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       const progress = (scrollTop / (scrollHeight || 1)) * 100;
-      
+
       if (scrollProgressRef.current) scrollProgressRef.current.style.width = `${progress}%`;
-      
+
       // Dynamic Color Shifting
       const sections = document.querySelectorAll('section, header, footer');
       sections.forEach(section => {
         const rect = section.getBoundingClientRect();
         // Change color when section is in middle of viewport
-        if(rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+        if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
           const color = section.dataset.color;
-          if(color) document.documentElement.style.setProperty('--primary-color', color);
+          if (color) document.documentElement.style.setProperty('--primary-color', color);
         }
       });
     };
 
     window.addEventListener("mousemove", moveCursor);
     window.addEventListener("scroll", updateScroll);
-    
+
     return () => {
       window.removeEventListener("mousemove", moveCursor);
       window.removeEventListener("scroll", updateScroll);
@@ -72,7 +70,7 @@ const App = () => {
   // GSAP Animations Setup
   useLayoutEffect(() => {
     if (loading) return;
-    
+
     const ctx = gsap.context(() => {
       // Reveal Elements Upwards
       gsap.utils.toArray('.reveal-up').forEach((item) => {
@@ -81,7 +79,7 @@ const App = () => {
           y: 50, opacity: 0, duration: 1, ease: "power3.out"
         });
       });
-      
+
       // Animate Skill Bars
       gsap.utils.toArray('.bar-fill').forEach((bar) => {
         gsap.to(bar, {
@@ -99,14 +97,14 @@ const App = () => {
   return (
     <>
       {loading && <Preloader onComplete={() => setLoading(false)} />}
-      
+
       {!loading && (
         <div ref={mainRef} className="text-slate-300">
           {/* --- Global UI Elements --- */}
           <div id="cursor-dot"></div>
           <div id="cursor-outline"></div>
           <div id="scroll-progress" ref={scrollProgressRef}></div>
-          
+
           {/* Background Canvas (z-0) */}
           <ThreeBackground />
 

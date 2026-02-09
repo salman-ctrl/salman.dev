@@ -16,7 +16,7 @@ const Navbar = ({ toggleMenu, isMenuOpen }) => {
         <a href="#" className="text-2xl font-bold font-display tracking-tighter text-white group magnetic-btn">
           SR<span className="highlight-text">.</span>
         </a>
-        
+
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide font-mono">
           {navLinks.map((item, i) => (
@@ -24,10 +24,10 @@ const Navbar = ({ toggleMenu, isMenuOpen }) => {
               <span className="highlight-text mr-1">0{i + 1}.</span>{item.label}
             </a>
           ))}
-          
-          <a 
-            href="https://wa.me/6285267653061" 
-            target="_blank" 
+
+          <a
+            href="https://wa.me/6285267653061"
+            target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2.5 rounded-lg border border-current text-[var(--primary-color)] hover:bg-white/5 transition-all duration-300 font-bold"
           >
@@ -45,10 +45,9 @@ const Navbar = ({ toggleMenu, isMenuOpen }) => {
       {isMenuOpen && (
         <div className="md:hidden bg-[#0a0f1c] border-b border-white/10 absolute w-full left-0 top-20 shadow-2xl">
           <div className="flex flex-col p-6 space-y-4 font-mono text-lg text-slate-300">
-             {navLinks.map(item => (
-               <a key={item.label} href={item.id} onClick={toggleMenu}>// {item.label}</a>
+            {navLinks.map(item => (
              ))}
-             <a href="https://wa.me/6285267653061" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>// Contact Me</a>
+            <a href="https://wa.me/6285267653061" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>// Contact Me</a>
           </div>
         </div>
       )}
