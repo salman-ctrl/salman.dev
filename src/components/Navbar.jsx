@@ -46,7 +46,8 @@ const Navbar = ({ toggleMenu, isMenuOpen }) => {
         <div className="md:hidden bg-[#0a0f1c] border-b border-white/10 absolute w-full left-0 top-20 shadow-2xl">
           <div className="flex flex-col p-6 space-y-4 font-mono text-lg text-slate-300">
             {navLinks.map(item => (
-             ))}
+              <a key={item.label} href={item.id} onClick={toggleMenu}>// {item.label}</a>
+            ))}
             <a href="https://wa.me/6285267653061" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>// Contact Me</a>
           </div>
         </div>
