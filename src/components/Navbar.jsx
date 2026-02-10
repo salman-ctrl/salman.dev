@@ -37,7 +37,6 @@ const Navbar = ({ toggleMenu, isMenuOpen }) => {
 
         {/* Mobile Toggle */}
         <button onClick={toggleMenu} className="md:hidden text-white p-2">
-          <i className="fas fa-bars text-xl"></i>
         </button>
       </div>
 
