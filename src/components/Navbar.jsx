@@ -25,14 +25,7 @@ const Navbar = ({ toggleMenu, isMenuOpen }) => {
             </a>
           ))}
 
-          <a
-            href="https://wa.me/6285267653061"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2.5 rounded-lg border border-current text-[var(--primary-color)] hover:bg-white/5 transition-all duration-300 font-bold"
-          >
-            Contact Me
-          </a>
+
         </div>
 
         {/* Mobile Toggle */}
