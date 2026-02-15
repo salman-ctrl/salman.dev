@@ -17,6 +17,23 @@ const Navbar = ({ toggleMenu, isMenuOpen }) => {
           SR<span className="highlight-text">.</span>
         </a>
 
+        {/* Desktop Menu */}
+        <div className="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide font-mono">
+          {navLinks.map((item, i) => (
+            <a key={item.label} href={item.id} className="hover:text-white transition-colors relative group">
+              <span className="highlight-text mr-1">0{i + 1}.</span>{item.label}
+            </a>
+          ))}
+
+          <a
+            href="https://wa.me/6285267653061"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2.5 rounded-lg border border-current text-[var(--primary-color)] hover:bg-white/5 transition-all duration-300 font-bold"
+          >
+            Contact Me
+          </a>
+        </div>
 
         {/* Mobile Toggle */}
         <button onClick={toggleMenu} className="md:hidden text-white p-2">
